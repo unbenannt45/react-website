@@ -14,7 +14,7 @@ export default class Heder extends Component {
     render() {
         return (
             <div>
-                <Navbar fixed='top' collapseOnSelect expand='md' bg="dark" variant='dark'> //collapseOnSelect - делает бургер-меню
+                <Navbar  collapseOnSelect expand='md' bg="dark" variant='dark'> //collapseOnSelect - делает бургер-меню
                     <Container>
                         <Navbar.Brand href="/">
                             <img
