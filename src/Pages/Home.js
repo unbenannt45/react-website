@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Slider from '../Components/Slider';
 
 export default class Home extends Component {
   render() {
     return (
-      <div className='m-5'>
-        <h1>Hello Home</h1>
-      </div>
+      <Slider/>
     )
   }
 }
